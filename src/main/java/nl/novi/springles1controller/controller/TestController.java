@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping
     ResponseEntity<String> Test(){
-        return ResponseEntity.ok("Yes het is geconnected");
+        return ResponseEntity.ok("Yes het is geconnected!!");
     }
 }
