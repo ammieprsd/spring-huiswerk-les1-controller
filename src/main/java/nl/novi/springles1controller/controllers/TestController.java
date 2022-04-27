@@ -1,4 +1,4 @@
-package nl.novi.springles1controller.controller;
+package nl.novi.springles1controller.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
