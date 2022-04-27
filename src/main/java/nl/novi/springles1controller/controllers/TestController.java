@@ -1,4 +1,4 @@
-package nl.novi.springles1controller.controller;
+package nl.novi.springles1controller.controllers;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping
     ResponseEntity<String> Test(){
-        return ResponseEntity.ok("Yes het is geconnected");
+        return ResponseEntity.ok("Yes het is geconnected!!");
     }
 }
